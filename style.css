@@ -1,0 +1,191 @@
+body {
+    background-color: rgb(31, 20, 58);
+    color: white;
+}
+h2 {
+    margin: 2rem auto;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+
+/* the hair */
+.container div:nth-child(9) ,  .container div:nth-child(10) {
+    position: relative;
+    top: 0.5rem;
+    
+}
+.container div:nth-child(2) ,  .container div:nth-child(5) {
+    position: relative;
+    top: 1rem;
+
+}
+.container div:nth-child(5) {
+    left: -1rem;
+
+}
+.container div:nth-child(2) {
+    left: 1rem;
+
+}
+.container div:nth-child(9) , .container div:nth-child(10) ,  .container div:nth-child(2) ,  .container div:nth-child(5) {
+    border-radius: 30%;
+    background-color: rgb(160, 160, 23);
+} 
+
+/* the face */
+
+.container div:nth-child(15) {
+    background-color: rgb(238, 230, 196);
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 3;
+    border-radius: 30%;
+} 
+.eye1 {
+    width: 2rem;
+    height:  2rem;
+    background-color: rgb(252, 252, 252);
+    position: relative;
+    border-radius: 50%;
+    top: 2rem;
+    left: 2rem;
+}
+.eye2 {
+    width: 2rem;
+    height:  2rem;
+    background-color: rgb(255, 255, 255) !important;
+    position: relative;
+    top: 0.1rem !important;
+    left:5rem !important;
+    border-radius: 50% !important;
+}
+.circle {
+    width: 1rem;
+    height:  1rem;
+    background-color: rgb(5, 5, 5) !important;
+    position: relative;
+    top: -1.5rem !important;
+    left:5.5rem !important;
+    border-radius: 50%;
+}
+
+.circle2 {
+    width: 1rem;
+    height:  1rem;
+    background-color: rgb(5, 5, 5) !important;
+    position: relative;
+    top: -2.5rem !important;
+    left:2.5rem !important;
+    border-radius: 50%;
+
+}
+
+.nose {
+    background-color: rgb(161, 53, 53) !important;
+    width: 1rem;
+    height:  2rem;
+    border-radius: 50%;
+    position: relative;
+    top: -1.5rem !important;
+    left:4rem !important;
+}
+
+.mouth-part1 {
+      background-color: rgb(240, 123, 143);
+      width: 3rem;
+      height:  0.7rem;
+      border-radius: 50% 50% 0   0 ;
+      position: relative;
+      border: 1px solid rgb(121, 32, 106);
+      left:3rem !important;
+}
+
+.mouth-part2 {
+    background-color: rgb(240, 123, 143);
+    width: 3rem;
+    height:  0.7rem;
+    border-radius:  0 0 50% 50%  ;
+    position: relative;
+    border: 1px solid rgb(121, 32, 106);
+
+    left:3rem !important;
+}
+
+/* hands */
+.container div:nth-child(26) , .container div:nth-child(30){
+    background-color: rgb(238, 230, 196);
+    border-radius: 40% 0 0 40%;
+    position: relative;
+    top:1.5rem;
+    transform: rotate(20deg);
+
+
+}
+.container div:nth-child(26) {
+    transform: rotate(-20deg);
+
+
+}
+.container div:nth-child(30){
+    border-radius: 0 40% 40% 0;
+
+
+}
+/* hand of t-shirt */
+
+.container div:nth-child(27) , .container div:nth-child(29) {
+    background-color: rgb(138, 29, 165);
+    transform: rotate(20deg);
+
+}   
+.container div:nth-child(27) {
+    transform: rotate(-20deg);
+
+}
+/* t-shirt */
+
+.container div:nth-child(28) {
+    background-color: rgb(138, 29, 165);
+    grid-column: 3 / span 2;
+    grid-row: 6 / span 3;
+    
+} 
+
+/* pants */
+
+.container div:nth-child(41){
+    background-color: brown;
+    grid-column: 3 ;
+    grid-row: 9 / span 3;
+    margin-right: 1rem;
+} 
+
+.container div:nth-child(42) {
+    background-color: brown;
+    grid-column: 4;
+    grid-row: 9 / span 3;
+    margin-left: 1rem;
+}
+
+
+/* feet */
+.container div:nth-child(56),.container div:nth-child(55){
+    background-color: rgb(161, 46, 146);
+   border-radius: 30%;
+  
+}
+.container div:nth-child(55) {
+    margin-right: 1rem;
+
+}
+.container div:nth-child(56) {
+    margin-left: 1rem;
+
+}
+
